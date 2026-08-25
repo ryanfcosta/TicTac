@@ -5,7 +5,7 @@ using namespace std;
 class Matrix{
 private:
 
-    std::vector<std::vector<int>> tictactoe;
+    std::vector<std::vector<int>> tictac;
     std::vector <bool> dead_cols;
     std::vector<bool> dead_lines;
     bool deadMdiag;
